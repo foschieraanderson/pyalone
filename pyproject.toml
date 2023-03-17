@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pyalone"
+version = "0.1.0"
+description = "Python assistant to learning one new language"
+authors = ["Anderson Foschiera <foschieraanderson@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+speechrecognition = "^3.10.0"
+pyaudio = "^0.2.13"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
